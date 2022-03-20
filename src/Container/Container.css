@@ -1,5 +1,13 @@
 .card {
     background-color: #fff;
     padding: 15px;
-    border: none
+    border: none;
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    
+}
+
+.card.visible {
+    opacity: 1;
 }
